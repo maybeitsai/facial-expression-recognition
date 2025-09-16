@@ -51,28 +51,28 @@ Proyek ini mengimplementasikan dan membandingkan dua pendekatan **Deep Learning*
 
 ```
 data/
-├── train/                    # Dataset pelatihan (28,709 gambar)
-│   ├── angry/               # 4,953 gambar
-│   ├── disgust/             # 547 gambar
-│   ├── fear/                # 5,121 gambar
-│   ├── happy/               # 8,989 gambar
-│   ├── neutral/             # 6,198 gambar
-│   ├── sad/                 # 6,077 gambar
-│   └── surprise/            # 4,002 gambar
-└── test/                     # Dataset pengujian (3,589 gambar)
-    ├── angry/               # 958 gambar
-    ├── disgust/             # 111 gambar
-    ├── fear/                # 1,024 gambar
-    ├── happy/               # 1,774 gambar
-    ├── neutral/             # 1,233 gambar
-    ├── sad/                 # 1,247 gambar
-    └── surprise/            # 831 gambar
+├── train/                   
+│   ├── angry/               
+│   ├── disgust/            
+│   ├── fear/                
+│   ├── happy/               
+│   ├── neutral/             
+│   ├── sad/                 
+│   └── surprise/            
+└── test/                    
+    ├── angry/              
+    ├── disgust/            
+    ├── fear/                
+    ├── happy/               
+    ├── neutral/             
+    ├── sad/                 
+    └── surprise/           
 ```
 
 ### 📊 Karakteristik Dataset
 
 - **Format**: Gambar grayscale 48x48 piksel
-- **Total gambar**: 32,298 (28,709 train + 3,589 test)
+- **Total gambar**: 35,887 (28,709 train + 7,178 test)
 - **Preprocessing**: Wajah sudah melalui registrasi otomatis
 - **Distribusi**: Tidak seimbang (imbalanced), dengan 'disgust' sebagai kelas minoritas
 
