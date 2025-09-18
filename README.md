@@ -88,8 +88,8 @@ pip atau conda
 ### 1. Clone Repository
 
 ```bash
-git clone <repository-url>
-cd "Faciel Expression"
+git clone https://github.com/maybeitsai/facial-expression-recognition.git
+cd "facial-expression-recognition"
 ```
 
 ### 2. Install Dependencies
@@ -315,11 +315,3 @@ Input (96x96x3) → MobileNetV2(frozen)
 ## 📜 Lisensi
 
 Proyek ini dilisensikan di bawah MIT License - lihat file [LICENSE](LICENSE) untuk detail.
-
----
-
-<div align="center">
-
-**🎭 Facial Expression Recognition | Built with ❤️ using TensorFlow**
-
-</div>
